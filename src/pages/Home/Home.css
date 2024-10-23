@@ -1,0 +1,58 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* ให้เต็มหน้าจอแนวตั้ง */
+  padding: 20px;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3); /* ใช้ไล่เฉดสีพื้นหลังที่ทันสมัย */
+  border: none; /* ลบเส้นขอบออก */
+  border-radius: 20px; /* มุมโค้งมนมากขึ้น */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* เงาแบบนุ่มนวล */
+}
+
+img {
+  width: 180px; /* ขนาดที่เล็กลงเพื่อความมินิมอล */
+  height: 180px;
+  margin: 0; /* ยกเลิก margin */
+  border-radius: 10%; /* รูปทรงวงกลม */
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* เงาเน้นภาพ */
+}
+
+.home-Htitle {
+  color: #3a506b; /* ใช้สีน้ำเงินเข้มที่ดูเป็นทางการและทันสมัย */
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase; /* ตัวอักษรพิมพ์ใหญ่ทั้งหมด */
+  margin-top: 1rem;
+  letter-spacing: 2px; /* เพิ่มช่องว่างระหว่างตัวอักษร */
+}
+
+.home-title {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #5bc0be; /* ใช้สีฟ้าอ่อนเพื่อสร้างความสดใส */
+  margin-top: 0.5rem;
+}
+
+.home-title-container {
+  background-color: #fff; /* เพิ่มพื้นหลังสีขาว */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 1.5rem; /* เพิ่ม margin ให้แยกจากส่วนอื่นชัดเจน */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* เงาบางๆ */
+}
+
+.home-name {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #1c2541; /* เปลี่ยนสีเป็นน้ำเงินเข้ม */
+}
+
+.home-name-container {
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 1.5rem; /* เพิ่มช่องว่าง */
+}
