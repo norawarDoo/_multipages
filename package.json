@@ -2,7 +2,7 @@
   "name": "multipages",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://norawardoo.github.io/multipages",
+  "homepage": "https://norawardoo.github.io/_multipages",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
